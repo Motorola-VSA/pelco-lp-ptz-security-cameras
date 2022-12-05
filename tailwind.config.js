@@ -10,7 +10,7 @@ module.exports = {
       xl: '1440px',
     },
     backgroundImage: {
-      'marquee-desktop': "url('https://3396890.fs1.hubspotusercontent-na1.net/hubfs/3396890/Pelco/Landing%20Pages/ptz-security-cameras/04-PTZ-LPhero.jpg')",
+      'marquee-desktop': "url('https://3396890.fs1.hubspotusercontent-na1.net/hubfs/3396890/Pelco/Landing%20Pages/ptz-security-cameras/9.%20PTZ%20Desktop.jpg')",
       'marquee-mobile': "url('https://3396890.fs1.hubspotusercontent-na1.net/hubfs/3396890/Pelco/Landing%20Pages/ptz-security-cameras/04-PTZ-LPhero-mobile.jpg')"
     },
     extend: {
