@@ -746,6 +746,34 @@ html {
     background: linear-gradient(90deg, rgba(255,255,255,1) 720px, rgba(255,255,255,0) 100%);  
   } */
 
+#hsForm > form > fieldset > div > div > input {
+  border-radius: 8px;
+  margin: 5px;
+  width: 100%;
+}
+
+/* #hsForm div.input input {
+    border-radius: 8px;
+    margin: 5px;
+    width: 100%;
+  } */
+
+#hsForm fieldset ul > li > label {
+  color: white;
+  margin-left: 10px;
+  display: block;
+}
+
+input.hs-button.primary.large {
+  background-color: #00729D;
+  /* width: 100%; */
+  color: white;
+  padding: 10px 32px;
+  margin: 5px auto;
+  border-radius: 8px;
+  display: block;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -818,16 +846,12 @@ html {
   margin-top: 0.5rem;
 }
 
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .-mr-1 {
@@ -980,16 +1004,8 @@ html {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -1002,10 +1018,6 @@ html {
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -1023,10 +1035,6 @@ html {
 
 .gap-y-4 {
   row-gap: 1rem;
-}
-
-.gap-y-6 {
-  row-gap: 1.5rem;
 }
 
 .gap-x-4 {
@@ -1078,14 +1086,6 @@ html {
   border-radius: 1rem;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -1122,11 +1122,6 @@ html {
 
 .border-transparent {
   border-color: transparent;
-}
-
-.border-gray-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
 .border-gray-200 {
@@ -1223,11 +1218,6 @@ html {
   padding-right: 0.5rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1241,6 +1231,11 @@ html {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .px-8 {
@@ -1469,19 +1464,9 @@ html {
   color: rgb(0 114 157 / var(--tw-text-opacity));
 }
 
-.focus\:border-primary:focus {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 114 157 / var(--tw-border-opacity));
-}
-
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.focus\:ring-primary:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(0 114 157 / var(--tw-ring-opacity));
 }
 
 .group:hover .group-hover\:opacity-75 {
@@ -1489,14 +1474,6 @@ html {
 }
 
 @media (min-width: 480px) {
-  .sm\:col-span-1 {
-    grid-column: span 1 / span 1;
-  }
-
-  .sm\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1524,10 +1501,6 @@ html {
 
   .sm\:max-w-md {
     max-width: 28rem;
-  }
-
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:items-center {
@@ -1575,11 +1548,6 @@ html {
 
   .sm\:text-center {
     text-align: center;
-  }
-
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 }
 
